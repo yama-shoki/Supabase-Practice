@@ -34,7 +34,7 @@ export default function Home() {
 
   const totalPages = Math.ceil(bbsAllData.length / pageSize);
 
-  const handlePageChange = (event, page) => {
+  const handlePageChange = (_event, page) => {
     setCurrentPage(page);
   };
 
